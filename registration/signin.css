@@ -29,15 +29,11 @@ body{
 }
 input{
   margin-top: 20px;
+   margin-bottom: 30px;
 }
-label{
-  font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: #f0e3cb;
-    font-weight: bolder;
-}
+ 
 #btn_login{
-  width: 200px;
+  width: 400px;
   margin-top: 20px;
   height: 30px;
   border: 2px solid #3e331f;
@@ -46,9 +42,9 @@ label{
   cursor: pointer;
   background-color: #f0e3cb;
   color:  #3e331f;
-  margin-left: 150px;
+  margin-left: 50px;
   margin-bottom: 30px;
-   border-radius: 5px;
+   border-radius: 45px;
    box-shadow: 0px 0px 28px #f0e3cb;
 }
 #btn_login:hover{
@@ -71,4 +67,18 @@ h1{
   color: white;
   font-size: 50px;
   text-align: center;
+}
+a{
+  font-size: 20px;
+  color: rgb(12, 12, 194);
+  text-decoration: none;
+  padding-top: 20px;
+}
+.formulaire p{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+i{
+   color: #e19913;
 }

@@ -62,4 +62,7 @@ padding: 15px;
 /* __________cartes____________ */
 .cartes{
   background-color: #3e331f;
+  cursor: pointer;
 }
+
+ 
