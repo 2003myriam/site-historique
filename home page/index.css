@@ -61,7 +61,7 @@ padding: 15px;
   background-color: #3e331f;
   cursor: pointer;
 }
-/* _______ */
+/* _______ time line __________ */
  /* -------------------------------- 
 
 Primary style
@@ -451,4 +451,138 @@ footer{
   background-color: #3e331f;
   color: white;
 }
- 
+/* ------responsive------------ */
+/*  petit appareil mobile */
+@media (min-width: 576px) and (max-width: 768px) {
+
+  /* HERO */
+  .heroSection h1 {
+    font-size: 40px;
+  }
+
+  .heroSection h2 {
+    font-size: 30px;
+  }
+
+  .heroSection button {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  /* _______ TIMELINE _______ */
+
+  .cd-horizontal-timeline .timeline {
+    height: 80px;
+    width: 100%;
+  }
+
+  .cd-horizontal-timeline .events-wrapper {
+    margin: 0 20px;
+  }
+
+  .cd-horizontal-timeline .events a {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .cd-horizontal-timeline .events a::after {
+    height: 10px;
+    width: 10px;
+  }
+
+  .cd-horizontal-timeline .events {
+    top: 40px;
+  }
+
+  .cd-horizontal-timeline .events-content h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .cd-horizontal-timeline .events-content em {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .cd-horizontal-timeline .events-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* boutons navigation */
+  .cd-timeline-navigation a {
+    height: 28px;
+    width: 28px;
+  }
+
+}
+@media (max-width: 576px) {
+
+  /* HERO */
+  .heroSection h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .heroSection h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .heroSection button {
+    width: 200px;
+    font-size: 16px;
+  }
+
+  /* _______ TIMELINE _______ */
+
+  .cd-horizontal-timeline {
+    margin: 2em auto;
+  }
+
+  .cd-horizontal-timeline .timeline {
+    height: 60px;
+    width: 100%;
+  }
+
+  .cd-horizontal-timeline .events-wrapper {
+    margin: 0 10px;
+  }
+
+  .cd-horizontal-timeline .events {
+    top: 30px;
+  }
+
+  .cd-horizontal-timeline .events a {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  .cd-horizontal-timeline .events a::after {
+    height: 8px;
+    width: 8px;
+  }
+
+  /* contenu */
+  .cd-horizontal-timeline .events-content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .cd-horizontal-timeline .events-content em {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .cd-horizontal-timeline .events-content p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* navigation (flèches) */
+  .cd-timeline-navigation a {
+    height: 24px;
+    width: 24px;
+  }
+
+}
