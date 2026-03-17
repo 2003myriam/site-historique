@@ -38,6 +38,7 @@ main{
   font-size: 30px;
   font-weight: bold;
 }
+/* _____localisation______ */
 .localisation{
   display: flex;
   flex-direction: row;
@@ -61,6 +62,8 @@ main{
 }
 .image_localisation{
   border: 5px solid #3e331f;
+  width: auto;
+  height: auto;
 }
 .Culture{
   background-color: #feeac5;
@@ -89,4 +92,65 @@ footer{
   padding-top: 50px;
 }
  
- 
+/* ------responsive------------ */
+/* ___tablette */
+@media(min-width :768px)and (max-width:992px){
+.localisation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image_localisation{
+  
+  width: 530px;
+  height: auto;
+}
+}
+/*  petit appareil mobile */
+@media(min-width :576px)and (max-width:768px){
+.localisation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image_localisation{
+  width: 410px;
+  height: auto;
+}
+.image_localisation img{
+  width: 400px;
+  height: auto;
+}
+.cartes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+}
+/* ___extra small____ */
+@media(max-width :576px){
+.localisation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image_localisation{
+  width: 310px;
+  height: auto;
+}
+.image_localisation img{
+  width: 300px;
+  height: auto;
+}
+.cartes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+}
