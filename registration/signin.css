@@ -82,3 +82,31 @@ a{
 i{
    color: #e19913;
 }
+/* ------responsive------------ */
+/*  petit appareil mobile */
+@media(min-width :576px)and (max-width:768px){
+.content_form{
+  width: 500px;
+}
+.coordoo{
+  width: 400px;
+ 
+}
+#btn_login{
+  margin-left: 20px;
+}
+}
+/* ___extra small____ */
+@media(max-width :576px){
+.content_form{
+  width: 400px;
+  padding: 10px;
+}
+.coordoo{
+  width: 300px;
+ 
+}
+#btn_login{
+  margin-left: 10px;
+}
+}
