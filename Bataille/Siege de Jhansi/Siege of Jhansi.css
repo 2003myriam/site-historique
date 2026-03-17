@@ -1,0 +1,68 @@
+main{
+  background-image: url("../../image/acueil\ bataille\ de\ jansi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.herosection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.herosection h1{
+  font-size: 50px;
+  text-align: center;
+  color: #e4cfa8;
+  padding-top: 50px;
+  text-shadow: 2px 2px 4px #3e331f;
+}
+.herosection p{
+  font-size: 40px;
+  text-align: justify;
+
+}
+.herosection button{
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #e4cfa8;
+  color: #3e331f;
+  width: 500px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* ____section 1_____ */
+.pourquoi{
+  background-color: #e4cfa8;
+  width: auto;height: auto;
+  margin: 100px 50px;
+}
+.pourquoi h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.pourquoi h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #3e331f;
+  text-shadow: 2px 2px 4px #3e331f;
+}
+.pourquoi p{
+  font-size: 20px;
+   
+}
+li{
+  font-size: 20px;
+}
+ 
+ul h4{
+  font-weight: bold;
+}
