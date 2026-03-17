@@ -10,6 +10,10 @@ body{
   gap: 50px;
   align-items: center;
  }
+ .hero_section img{
+  width:500px;
+  height:"auto";
+ }
  .hero_section h1{
   font-size: 50px;
   text-shadow: 2px 5px 4px #a93226;
@@ -43,8 +47,8 @@ body{
 }
 .jeune h1{
 font-size: 50px;
-  text-shadow: 2px 5px 4px #a93226;
-  color: #3e331f;
+text-shadow: 2px 5px 4px #a93226;
+color: #3e331f;
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -368,5 +372,139 @@ margin-left: 50%;
   }
 }
 
+/* _____resposive_________ */
+@media (min-width: 576px) and (max-width: 768px) {
 
+  body {
+    height: auto;
+  }
+
+  /* HERO */
+  .hero_section {
+    flex-direction: column;
+    margin: 50px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .hero_section h1 {
+    font-size: 36px;
+  }
+
+  .hero_section p {
+    font-size: 20px;
+  }
+
+  .hero_section ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero_section li {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* JEUNE */
+  .jeune {
+    margin: 50px;
+  }
+  .jeune button{
+    margin: 20px;
+  }
+
+  .jeune h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /* COLLAPSIBLE */
+  .collapsible {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* TIMELINE */
+  .timeline ul li div {
+    width: 300px;
+  }
+
+  /* HERITAGE */
+  .heritage {
+    margin: 50px;
+  }
+
+}
+@media (max-width: 576px) {
+
+  body {
+    height: auto;
+  }
+
+  /* HERO */
+  .hero_section {
+    flex-direction: column;
+    margin: 30px;
+    gap: 20px;
+    text-align: center;
+  }
+  .hero_section img{
+  width:400px;
+  height:"auto";
+ }
+
+  .hero_section h1 {
+    font-size: 28px;
+  }
+
+  .hero_section p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero_section ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero_section li {
+    width: 100%;
+  }
+
+  /* JEUNE */
+  .jeune {
+    margin: 30px;
+  }
+
+  .jeune h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* COLLAPSIBLE */
+  .collapsible {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* TIMELINE */
+  .timeline ul li div {
+    width: calc(100vw - 60px);
+  }
+
+  /* HERITAGE */
+  .heritage {
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .heritage h2 {
+    font-size: 22px;
+  }
+
+  .heritage p {
+    font-size: 14px;
+  }
+
+}
  
