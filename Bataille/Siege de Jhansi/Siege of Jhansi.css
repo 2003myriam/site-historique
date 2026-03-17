@@ -66,3 +66,66 @@ li{
 ul h4{
   font-weight: bold;
 }
+/* ------responsive------------ */
+/*  petit appareil mobile */
+@media(min-width :576px)and (max-width:768px){
+  .herosection{
+  margin: 50px;
+}
+ .herosection h1{
+  font-size: 40px;
+}
+.herosection p{
+  font-size: 30px;
+}
+.herosection button{
+  font-size: 20px;
+  width: 200px;
+}
+.pourquoi{
+  margin: 80px 40px;
+}
+.pourquoi h2{
+  font-size: 30px;
+   
+}
+.pourquoi h3{
+  font-size: 20px;
+ 
+}
+.pourquoi p{
+  font-size: 25px;
+   
+}
+}
+/* ___extra small____ */
+@media(max-width :576px){
+ .herosection{
+  margin: 30px;
+}
+ .herosection h1{
+  font-size: 30px;
+}
+.herosection p{
+  font-size: 20px;
+}
+.herosection button{
+  font-size: 20px;
+  width: 200px;
+}
+.pourquoi{
+  margin: 60px 40px;
+}
+.pourquoi h2{
+  font-size: 20px;
+   
+}
+.pourquoi h3{
+  font-size: 25px;
+ 
+}
+.pourquoi p{
+  font-size: 25px;
+   
+}
+}
