@@ -72,3 +72,28 @@ h1{
   font-size: 50px;
   text-align: center;
 }
+/* ------responsive------------ */
+/*  petit appareil mobile */
+@media(min-width :576px)and (max-width:768px){
+ .content_form{
+  width: 500px;
+}
+.coordoo{
+  width: 400px;
+}
+#btn_login{
+   margin-left: 100px;
+}
+}
+/* ___extra small____ */
+@media(max-width :576px){
+.content_form{
+  width: 400px;
+}
+.coordoo{
+  width: 200px;
+}
+#btn_login{
+   margin-left: 50px;
+}
+}
